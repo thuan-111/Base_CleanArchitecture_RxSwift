@@ -18,4 +18,8 @@ extension UIViewController {
         alertController.addAction(alertAction)
         present(alertController, animated: true)
     }
+    
+    func logDeinit() {
+        print(String(describing: type(of: self)) + "deinit")
+    }
 }

@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		CAB2FA8CA1B00C93D18D7D31 /* Pods_base_rxswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366892C8AEB1D3534D7A7B9E /* Pods_base_rxswift.framework */; };
 		EB39446311E92A8D05050E96 /* Pods_base_rxswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF36D18CD12AE4ED1D9F106 /* Pods_base_rxswiftTests.framework */; };
+		EC30355B281500DE005E237E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30355A281500DE005E237E /* BaseViewController.swift */; };
+		EC30355D281504B4005E237E /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30355C281504B4005E237E /* BindableType.swift */; };
+		EC303560281506DD005E237E /* Sotryboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC30355F281506DD005E237E /* Sotryboards.swift */; };
+		EC30356228150702005E237E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC30356128150702005E237E /* Home.storyboard */; };
+		EC3035642815070A005E237E /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC3035632815070A005E237E /* Account.storyboard */; };
 		EC496E4928139460001ECD63 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E4828139460001ECD63 /* Assembler.swift */; };
 		EC496E4B281394DD001ECD63 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E4A281394DD001ECD63 /* AppNavigator.swift */; };
 		EC496E4D281394E2001ECD63 /* AppUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E4C281394E2001ECD63 /* AppUseCase.swift */; };
 		EC496E4F281394EC001ECD63 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E4E281394EC001ECD63 /* AppViewModel.swift */; };
 		EC496E51281394FB001ECD63 /* AppAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E50281394FB001ECD63 /* AppAssembler.swift */; };
-		EC496E542813965F001ECD63 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E532813965F001ECD63 /* ViewModel.swift */; };
+		EC496E542813965F001ECD63 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E532813965F001ECD63 /* ViewModelType.swift */; };
 		EC496E5C28139AA2001ECD63 /* AppGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E5B28139AA2001ECD63 /* AppGateway.swift */; };
 		EC496E5E28139B98001ECD63 /* GatewaysAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E5D28139B98001ECD63 /* GatewaysAssembler.swift */; };
 		EC496E752813A131001ECD63 /* base_rxswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC496E742813A131001ECD63 /* base_rxswiftTests.swift */; };
@@ -50,12 +55,17 @@
 		366892C8AEB1D3534D7A7B9E /* Pods_base_rxswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base_rxswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF36D18CD12AE4ED1D9F106 /* Pods_base_rxswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_base_rxswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BADA626071ADB91024CD46 /* Pods-base_rxswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-base_rxswiftTests.release.xcconfig"; path = "Target Support Files/Pods-base_rxswiftTests/Pods-base_rxswiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC30355A281500DE005E237E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EC30355C281504B4005E237E /* BindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		EC30355F281506DD005E237E /* Sotryboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sotryboards.swift; sourceTree = "<group>"; };
+		EC30356128150702005E237E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EC3035632815070A005E237E /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
 		EC496E4828139460001ECD63 /* Assembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembler.swift; sourceTree = "<group>"; };
 		EC496E4A281394DD001ECD63 /* AppNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigator.swift; sourceTree = "<group>"; };
 		EC496E4C281394E2001ECD63 /* AppUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUseCase.swift; sourceTree = "<group>"; };
 		EC496E4E281394EC001ECD63 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 		EC496E50281394FB001ECD63 /* AppAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembler.swift; sourceTree = "<group>"; };
-		EC496E532813965F001ECD63 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		EC496E532813965F001ECD63 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		EC496E5B28139AA2001ECD63 /* AppGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGateway.swift; sourceTree = "<group>"; };
 		EC496E5D28139B98001ECD63 /* GatewaysAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewaysAssembler.swift; sourceTree = "<group>"; };
 		EC496E722813A131001ECD63 /* base_rxswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = base_rxswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,9 +118,29 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		EC3035592814FF9F005E237E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EC30355A281500DE005E237E /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EC30355E281506CC005E237E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EC30355F281506DD005E237E /* Sotryboards.swift */,
+				EC30356128150702005E237E /* Home.storyboard */,
+				EC3035632815070A005E237E /* Account.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		EC496E45281393E8001ECD63 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EC30355E281506CC005E237E /* Storyboards */,
+				EC3035592814FF9F005E237E /* Common */,
 				EC496E472813940E001ECD63 /* App */,
 				EC496E46281393F3001ECD63 /* Main */,
 			);
@@ -144,7 +174,8 @@
 			isa = PBXGroup;
 			children = (
 				EC496E4828139460001ECD63 /* Assembler.swift */,
-				EC496E532813965F001ECD63 /* ViewModel.swift */,
+				EC496E532813965F001ECD63 /* ViewModelType.swift */,
+				EC30355C281504B4005E237E /* BindableType.swift */,
 			);
 			path = Architecture;
 			sourceTree = "<group>";
@@ -222,7 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				EC496E5528139A1A001ECD63 /* Data */,
-				EC496E5228139636001ECD63 /* Architecture */,
 				EC6A8DFD280DC5680045B3D4 /* Support */,
 				EC6A8DFC280DC5610045B3D4 /* Config */,
 				EC496E45281393E8001ECD63 /* Scenes */,
@@ -247,6 +277,7 @@
 		EC6A8DFD280DC5680045B3D4 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				EC496E5228139636001ECD63 /* Architecture */,
 				EC6A8DFE280DC5700045B3D4 /* Extensions */,
 			);
 			path = Support;
@@ -364,7 +395,9 @@
 			files = (
 				EC6A8DD5280DC2770045B3D4 /* LaunchScreen.storyboard in Resources */,
 				EC6A8DD2280DC2770045B3D4 /* Assets.xcassets in Resources */,
+				EC3035642815070A005E237E /* Account.storyboard in Resources */,
 				EC6A8DD0280DC2760045B3D4 /* Main.storyboard in Resources */,
+				EC30356228150702005E237E /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,9 +501,12 @@
 				EC496E5E28139B98001ECD63 /* GatewaysAssembler.swift in Sources */,
 				EC496E4F281394EC001ECD63 /* AppViewModel.swift in Sources */,
 				EC496E5C28139AA2001ECD63 /* AppGateway.swift in Sources */,
-				EC496E542813965F001ECD63 /* ViewModel.swift in Sources */,
+				EC30355D281504B4005E237E /* BindableType.swift in Sources */,
+				EC30355B281500DE005E237E /* BaseViewController.swift in Sources */,
+				EC496E542813965F001ECD63 /* ViewModelType.swift in Sources */,
 				EC496E962813A39A001ECD63 /* MainViewModel.swift in Sources */,
 				EC496E4B281394DD001ECD63 /* AppNavigator.swift in Sources */,
+				EC303560281506DD005E237E /* Sotryboards.swift in Sources */,
 				EC6A8DC9280DC2760045B3D4 /* AppDelegate.swift in Sources */,
 				EC496E942813A392001ECD63 /* MainViewController.swift in Sources */,
 				EC6A8E00280DC5880045B3D4 /* UIViewController+.swift in Sources */,

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+protocol MainUseCaseType {
+    
+}
+
+struct MainUseCase: MainUseCaseType {
+    
+}
