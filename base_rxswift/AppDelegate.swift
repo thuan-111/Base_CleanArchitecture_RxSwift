@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         self.window = window
         
-        if NSClassFromString("XCTest") != nil { // test
+        if NSClassFromString("XCTest") != nil {
             window.rootViewController = UnitTestViewController()
             window.makeKeyAndVisible()
         } else {
@@ -34,4 +34,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         _ = vm.transform(input, disposeBag: disposeBag)
     }
 }
-

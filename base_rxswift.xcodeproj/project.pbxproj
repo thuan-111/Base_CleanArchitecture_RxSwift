@@ -36,6 +36,19 @@
 		EC6A8DD5280DC2770045B3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6A8DD3280DC2770045B3D4 /* LaunchScreen.storyboard */; };
 		EC6A8E00280DC5880045B3D4 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A8DFF280DC5880045B3D4 /* UIViewController+.swift */; };
 		EC6A8E02280DC7060045B3D4 /* UIViewController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A8E01280DC7060045B3D4 /* UIViewController+Rx.swift */; };
+		EC963530281525EE00CC4343 /* HomeAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96352F281525EE00CC4343 /* HomeAssembler.swift */; };
+		EC963532281525FA00CC4343 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC963531281525FA00CC4343 /* HomeViewController.swift */; };
+		EC9635342815260000CC4343 /* HomeNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635332815260000CC4343 /* HomeNavigator.swift */; };
+		EC9635362815260600CC4343 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635352815260600CC4343 /* HomeViewModel.swift */; };
+		EC9635382815261700CC4343 /* HomeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635372815261700CC4343 /* HomeUseCase.swift */; };
+		EC96353A2815263500CC4343 /* AccountNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635392815263500CC4343 /* AccountNavigator.swift */; };
+		EC96353C2815263D00CC4343 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96353B2815263D00CC4343 /* AccountViewController.swift */; };
+		EC96353E2815264B00CC4343 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96353D2815264B00CC4343 /* AccountViewModel.swift */; };
+		EC9635402815265300CC4343 /* AccountUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96353F2815265300CC4343 /* AccountUseCase.swift */; };
+		EC9635422815265A00CC4343 /* AccountAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635412815265A00CC4343 /* AccountAssembler.swift */; };
+		EC9635442815372100CC4343 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635432815372100CC4343 /* BaseNavigationController.swift */; };
+		EC96354628153BF000CC4343 /* ObservableType+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC96354528153BF000CC4343 /* ObservableType+.swift */; };
+		EC9635482815434B00CC4343 /* UINavigationBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9635472815434B00CC4343 /* UINavigationBar+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +98,19 @@
 		EC6A8DD6280DC2770045B3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC6A8DFF280DC5880045B3D4 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		EC6A8E01280DC7060045B3D4 /* UIViewController+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Rx.swift"; sourceTree = "<group>"; };
+		EC96352F281525EE00CC4343 /* HomeAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembler.swift; sourceTree = "<group>"; };
+		EC963531281525FA00CC4343 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC9635332815260000CC4343 /* HomeNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigator.swift; sourceTree = "<group>"; };
+		EC9635352815260600CC4343 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EC9635372815261700CC4343 /* HomeUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUseCase.swift; sourceTree = "<group>"; };
+		EC9635392815263500CC4343 /* AccountNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountNavigator.swift; sourceTree = "<group>"; };
+		EC96353B2815263D00CC4343 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		EC96353D2815264B00CC4343 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		EC96353F2815265300CC4343 /* AccountUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountUseCase.swift; sourceTree = "<group>"; };
+		EC9635412815265A00CC4343 /* AccountAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountAssembler.swift; sourceTree = "<group>"; };
+		EC9635432815372100CC4343 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		EC96354528153BF000CC4343 /* ObservableType+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+.swift"; sourceTree = "<group>"; };
+		EC9635472815434B00CC4343 /* UINavigationBar+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				EC30355A281500DE005E237E /* BaseViewController.swift */,
+				EC9635432815372100CC4343 /* BaseNavigationController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -130,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				EC30355F281506DD005E237E /* Sotryboards.swift */,
+				EC6A8DCE280DC2760045B3D4 /* Main.storyboard */,
 				EC30356128150702005E237E /* Home.storyboard */,
 				EC3035632815070A005E237E /* Account.storyboard */,
 			);
@@ -139,10 +167,12 @@
 		EC496E45281393E8001ECD63 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				EC30355E281506CC005E237E /* Storyboards */,
 				EC3035592814FF9F005E237E /* Common */,
+				EC30355E281506CC005E237E /* Storyboards */,
 				EC496E472813940E001ECD63 /* App */,
 				EC496E46281393F3001ECD63 /* Main */,
+				EC96352E281525E000CC4343 /* Account */,
+				EC96352D281525CA00CC4343 /* Home */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -259,7 +289,6 @@
 				EC6A8DC8280DC2760045B3D4 /* AppDelegate.swift */,
 				EC6A8DCA280DC2760045B3D4 /* SceneDelegate.swift */,
 				EC496E7B2813A16C001ECD63 /* UnitTestViewController.swift */,
-				EC6A8DCE280DC2760045B3D4 /* Main.storyboard */,
 				EC6A8DD1280DC2770045B3D4 /* Assets.xcassets */,
 				EC6A8DD3280DC2770045B3D4 /* LaunchScreen.storyboard */,
 				EC6A8DD6280DC2770045B3D4 /* Info.plist */,
@@ -288,8 +317,34 @@
 			children = (
 				EC6A8DFF280DC5880045B3D4 /* UIViewController+.swift */,
 				EC6A8E01280DC7060045B3D4 /* UIViewController+Rx.swift */,
+				EC96354528153BF000CC4343 /* ObservableType+.swift */,
+				EC9635472815434B00CC4343 /* UINavigationBar+.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC96352D281525CA00CC4343 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC963531281525FA00CC4343 /* HomeViewController.swift */,
+				EC9635352815260600CC4343 /* HomeViewModel.swift */,
+				EC9635372815261700CC4343 /* HomeUseCase.swift */,
+				EC9635332815260000CC4343 /* HomeNavigator.swift */,
+				EC96352F281525EE00CC4343 /* HomeAssembler.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC96352E281525E000CC4343 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				EC96353B2815263D00CC4343 /* AccountViewController.swift */,
+				EC96353D2815264B00CC4343 /* AccountViewModel.swift */,
+				EC96353F2815265300CC4343 /* AccountUseCase.swift */,
+				EC9635392815263500CC4343 /* AccountNavigator.swift */,
+				EC9635412815265A00CC4343 /* AccountAssembler.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 		F3B0A4F3317E6E052F1C4FC9 /* Frameworks */ = {
@@ -499,19 +554,32 @@
 			files = (
 				EC6A8E02280DC7060045B3D4 /* UIViewController+Rx.swift in Sources */,
 				EC496E5E28139B98001ECD63 /* GatewaysAssembler.swift in Sources */,
+				EC96353C2815263D00CC4343 /* AccountViewController.swift in Sources */,
 				EC496E4F281394EC001ECD63 /* AppViewModel.swift in Sources */,
+				EC9635362815260600CC4343 /* HomeViewModel.swift in Sources */,
+				EC9635422815265A00CC4343 /* AccountAssembler.swift in Sources */,
 				EC496E5C28139AA2001ECD63 /* AppGateway.swift in Sources */,
+				EC9635482815434B00CC4343 /* UINavigationBar+.swift in Sources */,
 				EC30355D281504B4005E237E /* BindableType.swift in Sources */,
+				EC9635442815372100CC4343 /* BaseNavigationController.swift in Sources */,
 				EC30355B281500DE005E237E /* BaseViewController.swift in Sources */,
+				EC963532281525FA00CC4343 /* HomeViewController.swift in Sources */,
 				EC496E542813965F001ECD63 /* ViewModelType.swift in Sources */,
 				EC496E962813A39A001ECD63 /* MainViewModel.swift in Sources */,
 				EC496E4B281394DD001ECD63 /* AppNavigator.swift in Sources */,
+				EC9635342815260000CC4343 /* HomeNavigator.swift in Sources */,
+				EC96354628153BF000CC4343 /* ObservableType+.swift in Sources */,
+				EC9635382815261700CC4343 /* HomeUseCase.swift in Sources */,
 				EC303560281506DD005E237E /* Sotryboards.swift in Sources */,
 				EC6A8DC9280DC2760045B3D4 /* AppDelegate.swift in Sources */,
 				EC496E942813A392001ECD63 /* MainViewController.swift in Sources */,
 				EC6A8E00280DC5880045B3D4 /* UIViewController+.swift in Sources */,
 				EC496E9A2813A3AB001ECD63 /* MainNavigator.swift in Sources */,
 				EC496E982813A3A0001ECD63 /* MainUseCase.swift in Sources */,
+				EC963530281525EE00CC4343 /* HomeAssembler.swift in Sources */,
+				EC96353A2815263500CC4343 /* AccountNavigator.swift in Sources */,
+				EC96353E2815264B00CC4343 /* AccountViewModel.swift in Sources */,
+				EC9635402815265300CC4343 /* AccountUseCase.swift in Sources */,
 				EC496E4D281394E2001ECD63 /* AppUseCase.swift in Sources */,
 				EC496E4928139460001ECD63 /* Assembler.swift in Sources */,
 				EC496E51281394FB001ECD63 /* AppAssembler.swift in Sources */,

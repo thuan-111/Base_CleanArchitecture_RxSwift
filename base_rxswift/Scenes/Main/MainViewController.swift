@@ -8,6 +8,7 @@
 import UIKit
 import RxSwift
 import RxCocoa
+import Reusable
 
 final class MainViewController: UITabBarController, BindableType {
     // MARK: - Properties
@@ -16,6 +17,7 @@ final class MainViewController: UITabBarController, BindableType {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .secondarySystemBackground
     }
     
     deinit {
@@ -24,6 +26,11 @@ final class MainViewController: UITabBarController, BindableType {
     
     func bindViewModel() {
         let input = MainViewModel.Input()
-        let output = viewModel.transform(input, disposeBag: disposeBag)
+        _ = viewModel.transform(input, disposeBag: disposeBag)
     }
+}
+
+// MARK: - StoryboardSceneBased
+extension MainViewController: StoryboardSceneBased {
+    static var sceneStoryboard = Storyboards.main
 }
