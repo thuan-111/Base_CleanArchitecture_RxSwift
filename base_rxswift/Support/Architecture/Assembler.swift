@@ -8,6 +8,9 @@
 import Foundation
 
 protocol Assembler: AnyObject,
+                    HomeAssembler,
+                    AccountAssembler,
+                    MainAssembler,
                     GatewaysAssembler,
                     AppAssembler {
     

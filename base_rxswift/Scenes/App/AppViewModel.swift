@@ -24,6 +24,9 @@ extension AppViewModel: ViewModelType {
     
     func transform(_ input: Input, disposeBag: DisposeBag) -> Output {
         let output = Output()
+        input.loadTrigger
+            .drive(onNext: self.navigator.toMain)
+            .disposed(by: disposeBag)
         
         return output
     }
