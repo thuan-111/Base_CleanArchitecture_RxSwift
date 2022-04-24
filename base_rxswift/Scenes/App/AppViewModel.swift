@@ -13,7 +13,7 @@ struct AppViewModel {
     let useCase: AppUseCaseType
 }
 
-extension AppViewModel: ViewModel {
+extension AppViewModel: ViewModelType {
     struct Input {
         let loadTrigger: Driver<Void>
     }

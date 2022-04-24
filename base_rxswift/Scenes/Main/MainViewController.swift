@@ -6,10 +6,24 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
-final class MainViewController: UITabBarController {
-
+final class MainViewController: UITabBarController, BindableType {
+    // MARK: - Properties
+    var viewModel: MainViewModel!
+    var disposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    deinit {
+        logDeinit()
+    }
+    
+    func bindViewModel() {
+        let input = MainViewModel.Input()
+        let output = viewModel.transform(input, disposeBag: disposeBag)
     }
 }
