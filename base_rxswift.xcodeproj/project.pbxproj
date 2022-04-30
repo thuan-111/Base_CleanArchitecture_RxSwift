@@ -171,8 +171,8 @@
 				EC30355E281506CC005E237E /* Storyboards */,
 				EC496E472813940E001ECD63 /* App */,
 				EC496E46281393F3001ECD63 /* Main */,
-				EC96352E281525E000CC4343 /* Account */,
 				EC96352D281525CA00CC4343 /* Home */,
+				EC96352E281525E000CC4343 /* Account */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
